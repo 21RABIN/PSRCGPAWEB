@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./CSS File/Style.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+
+	<title>QRcode Genrator</title>
+</head>
+<body>
+
+	<style type="text/css">
+		[class~=box],body{background:cyan;}h3{position:relative;}button,h3{background:orange;}[class~=input],h3{border-left-width:.010416667in;}[class~=box]{display:flex;}[class~=box]{justify-content:center;}h3,[class~=input]{border-bottom-width:.010416667in;}#qrcode{background:wheat;}h3,[class~=input]{border-right-width:.010416667in;}[class~=input],h3{border-top-width:.010416667in;}[class~=box]{align-items:center;}[class~=input],h3{border-left-style:solid;}h3,[class~=input]{border-bottom-style:solid;}[class~=input],h3{border-right-style:solid;}[class~=box]{flex-direction:column;}h3,[class~=input]{border-top-style:solid;}h3{border-left-color:currentColor;}#qrcode{margin-left:20%;}[class~=box]{margin-top:112.5pt;}h3{border-bottom-color:currentColor;}[class~=input]{text-align:center;}h3{border-right-color:currentColor;}h3{border-top-color:currentColor;}h3{border-image:none;}#dw,button,h3{border-radius:.052083333in;}h3{padding-left:.25pc;}#dw{background:orange;}button,[class~=input],.qrcode,#dw{padding-left:.104166667in;}h3{padding-bottom:.25pc;}#dw,button,[class~=input],.qrcode{padding-bottom:.104166667in;}#dw,[class~=input]{padding-right:.104166667in;}h3{padding-right:.25pc;}h3{padding-top:.25pc;}h3{top:0;}h3{margin-left:0%;}[class~=input],.qrcode,button,#dw{padding-top:.104166667in;}h3{margin-bottom:0%;}h3{margin-right:0%;}h3{margin-top:0%;}label{font-weight:bold;}label{font-family:sans-serif;}button{padding-right:7.5pt;}button,#dw{cursor:pointer;}[class~=input]{border-left-color:black;}#dw,button{margin-left:1%;}button,#dw{margin-bottom:1%;}button,#dw{margin-right:1%;}button,#dw{margin-top:1%;}[class~=input]{border-bottom-color:black;}[class~=input]{border-right-color:black;}[class~=input]{border-top-color:black;}#dw,button{border-left-width:medium;}#dw,button{border-bottom-width:medium;}#dw,button{border-right-width:medium;}#dw,button{border-top-width:medium;}button,#dw{border-left-style:none;}[class~=input]{border-image:none;}[class~=input]{background:lightgreen;}.qrcode{text-align:center;}button,#dw{border-bottom-style:none;}button,#dw{border-right-style:none;}button,#dw{border-top-style:none;}#dw,button{border-left-color:currentColor;}button,#dw{border-bottom-color:currentColor;}#dw,button{border-right-color:currentColor;}button,#dw{border-top-color:currentColor;}#dw,button{border-image:none;}.qrcode{display:flex;}select{position:unset;}select{top:unset;}select{left:unset;}select{width:unset;}.qrcode{padding-right:7.5pt;}select{cursor:pointer;}select{outline:unset;}[class~=btn]{margin-top:.625pc;}[class~=btn]{margin-bottom:.625pc;}#dw{text-decoration:none;}#dw{display:none;}#dw{font-weight:bold;}
+	</style>
+
+<!-- ------------------------------------------------------------------------------ -->
+  <div class="container">
+
+        <div class="header">
+           
+            <div class="bar1" onclick="OpenMenu1()"><i class="fas fa-bars"></i></div>
+            <div class="title">
+                 <h2>Result QR Genrator</h2>
+            </div>
+           
+             <img id="logo" src="./images/psrrr.png">
+        </div>
+
+
+<!-- 	..................................................................... -->
+
+ <div class="hmenu">
+
+     <div class="me"><div class="bar2" id="bar2" onclick="OpenMenu2()"><i class="fas fa-bars" style=" font-size: 20px; color: greenyellow; "></i>
+</div>
+<h1 class="h">Menu</h1></div>
+      
+<a href="index.html" >HOME</a>
+              
+
+             <div class="sem2020">
+                <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>   
+
+            
+          <div class="sem2021">
+                <a href="http://results.worldcolleges.info/psrresults/may2022/index.php" target="blank">Semaster 1</a>
+                <a href="http://results.worldcolleges.info/psrresults/june2022/index.php" target="blank">Semaster 2</a>
+                <a href="http://results.worldcolleges.info/psrresults/nov2022/index.php" target="blank">Semaster 3</a>
+                <a href="http://results.worldcolleges.info/psrresults/apr2023/index.php" target="blank">Semaster 4</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 5</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 6</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 7</a>
+                <a href="#" target="blank" onclick="Resultmsg()">Semaster 8</a>
+          </div>
+          <div class="sem2022">
+            
+                 <a href="http://results.worldcolleges.info/psrresults/nov2022/index.php">Semaster 1</a>
+                <a href="http://results.worldcolleges.info/psrresults/apr2023/index.php">Semaster 2</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 3</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 4</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 5</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 6</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 7</a>
+                <a href="" target="blank" onclick="Resultmsg()">Semaster 8</a>
+          </div>
+           <div class="sem2023">
+            
+                 <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>
+
+
+        <div class="regulation">
+          
+           <a href="./UG-2019Regulation/CSE-UG-R2019.pdf" target="blank">Computer Science Enginerring</a>
+          <a href="./UG-2019Regulation/UG-ECE-R2019.pdf" target="blank" >Electronics and Communication Engineering</a>
+          <a href="./UG-2019Regulation/BME-UG-R2019.pdf" target="blank">Biomedical Enginerring</a>
+          <a href="./UG-2019Regulation/Civil-UG-R2019.pdf" target="blank">Civil Engineering</a>
+          <a href="./UG-2019Regulation/EEE-UG-R2019.pdf" target="blank">Electrical and Electronics Engineering</a>
+          <a href="./UG-2019Regulation/UG-Mech-R2019.pdf" target="blank">Mechanical Engineering</a>
+
+        </div>
+         
+         
+          <div class="mainmenu">
+          
+        
+          <a href="CgpaCalculate.html">Calculation</a>
+
+          <div class="dropdown">
+
+          <a href="#" >Get Result</a>
+
+          <div class="dropdowncontent">
+            <a href="#" onclick="sem2020()">2020-2024 Batch</a>
+            <a href="#" onclick="sem2021()">2021-2025 Batch</a>
+            <a href="#" onclick="sem2022()">2022-2026 Batch</a>
+            <a href="#" onclick="sem2023()">2023-2027 Batch</a>
+
+          </div>
+                      </div>
+
+                        <a href='QRCode.html'>Get your Result Genrate QR</a>
+          <a href="#" onclick="regulation()">Downlod UG-2019 Regulation</a>
+         </div>
+
+         </div>
+
+	<div class="hmenu">
+
+     <div class="me"><div class="bar2" id="bar2" onclick="OpenMenu2()"><i class="fas fa-bars" style=" font-size: 20px; color: greenyellow; "></i>
+</div>
+<h1 class="h">Menu</h1></div>
+      
+<a href="index.html" >HOME</a>
+              
+
+             <div class="sem2020">
+                <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>   
+
+            
+          <div class="sem2021">
+                <a href="http://results.worldcolleges.info/psrresults/may2022/index.php" target="blank">Semaster 1</a>
+                <a href="http://results.worldcolleges.info/psrresults/june2022/index.php" target="blank">Semaster 2</a>
+                <a href="http://results.worldcolleges.info/psrresults/nov2022/index.php" target="blank">Semaster 3</a>
+                <a href="http://results.worldcolleges.info/psrresults/apr2023/index.php" target="blank">Semaster 4</a>
+                <a href="" target="blank">Semaster 5</a>
+                <a href="" target="blank">Semaster 6</a>
+                <a href="" target="blank">Semaster 7</a>
+                <a href="" target="blank">Semaster 8</a>
+          </div>
+          <div class="sem2022">
+            
+                 <a href="http://results.worldcolleges.info/psrresults/nov2022/index.php">Semaster 1</a>
+                <a href="http://results.worldcolleges.info/psrresults/apr2023/index.php">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>
+           <div class="sem2023">
+            
+                 <a href="">Semaster 1</a>
+                <a href="">Semaster 2</a>
+                <a href="">Semaster 3</a>
+                <a href="">Semaster 4</a>
+                <a href="">Semaster 5</a>
+                <a href="">Semaster 6</a>
+                <a href="">Semaster 7</a>
+                <a href="">Semaster 8</a>
+          </div>
+
+
+        <div class="regulation">
+          
+           <a href="CSE-UG-R2019.pdf" target="blank">Computer Science Enginerring</a>
+          <a href="UG-ECE-R2019.pdf" target="blank" >Electronics and Communication Engineering</a>
+          <a href="BME-UG-R2019.pdf" target="blank">Biomedical Enginerring</a>
+          <a href="Civil-UG-R2019.pdf" target="blank">Civil Engineering</a>
+          <a href="EEE-UG-R2019.pdf" target="blank">Electrical and Electronics Engineering</a>
+          <a href="UG-Mech-R2019.pdf" target="blank">Mechanical Engineering</a>
+
+        </div>
+         
+         
+          <div class="mainmenu">
+          
+        
+          <a href="CgpaCalculate.html">Calculation</a>
+
+          <div class="dropdown">
+
+          <a href="#" >Get Result</a>
+
+          <div class="dropdowncontent">
+            <a href="#" onclick="sem2020()">2020-2024 Batch</a>
+            <a href="#" onclick="sem2021()">2021-2025 Batch</a>
+            <a href="#" onclick="sem2022()">2022-2026 Batch</a>
+            <a href="#" onclick="sem2023()">2023-2027 Batch</a>
+
+          </div>
+                      </div>
+
+                        <a href='QRCode.html'>Get your Result Genrate QR</a>
+          <a href="#" onclick="regulation()">Downlod UG-2019 Regulation</a>
+         </div>
+
+         </div>
+
+
+  <div class="box">
+  	<div class="input">
+  			<h3>YOUR Result Genrate QR</h3>
+  		  	<div class="btn">
+  		
+  		<select id="selectbatch">
+<option value="0">Select Batch</option>  
+<option value="20">2020-2024</option>
+<option value="21">2021-2025</option>
+<option value="22">2022-2026</option>
+<option value="23">2023-2027</option>
+
+</select>
+  		
+  		<select id="selectsem">
+<option value="0">Select Sem</option>  
+<option value="1">Sem 1</option>
+<option value="2">Sem 2</option>
+<option value="3">Sem 3</option>
+<option value="4">Sem 4 </option>
+<option value="5">Sem 5 </option>
+<option value="6">Sem 6 </option>
+<option value="7">Sem 7 </option>
+<option value="8">Sem 8 </option>
+</select>
+  	</div>
+  		
+  		  		<label>Enter Your Register Number</label><br><br>
+  		<input type="number" name="" placeholder="Enter RegNo" id="regno"><br>
+  		  		<div class="qrcode">
+  			<div id="qrcode">
+  				
+  			</div>
+  		</div>
+  		<a id="dw" onclick="downlod()" download>DownlodeQR</a>
+  		<button id="qr" onclick="genrateQR()">GenrateQR</button>
+
+  	</div>
+  	
+       
+
+  </div>
+
+    <script src="./Script File/Script.js"></script>
+    <script type="text/javascript" src="./Script File/Action.js"></script>
+</script>
+</body>
+</html>
